@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="https://getbootstrap.com/docs/4.5/examples/sign-in/signin.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+    <div class=" container">
+        <h5>Luis Miguel Escamilla Flores</h5>
+        <h5>16220004</h5>
+        <h5>Noveno semestre Ingenieria Infórmatica</h5>
+
+    </div>
+    <br>
+    <div class="container">
+        <form class="form-signin">
+            <img class="mb-4" src="https://itsrv.edu.mx/TecVirtual/pluginfile.php/1/core_admin/logocompact/300x300/1595523740/Imagen1.png" alt="" width="100">
+            <h1 class="h3 mb-3 font-weight-normal">Login</h1>
+            <label for="email" class="sr-only">Usuario</label>
+            <input type="email" id="email" class="form-control" placeholder="Usuario" required autofocus>
+            <label for="passwd" class="sr-only">Password</label>
+            <input type="password" id="passwd" class="form-control" placeholder="Password" required>
+            <button class="btn btn-lg btn-primary btn-block" type="button" onclick="login(document.getElementById('email').value, document.getElementById('passwd').value, 'POST')">Log in</button>
+            <p class="mt-5 mb-3 text-muted">&copy; 2020</p>
+        </form>
+    </div>
+    <script src="sub.js"></script>
+</body>
+
+</html>

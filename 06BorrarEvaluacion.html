@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Listar Alumnos</title>
+    <meta name="viewport">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://getbootstrap.com/docs/4.5/examples/starter-template/starter-template.css">
+    <script src="sub.js"></script>
+</head>
+
+<body onload="borrarEvaluacion()">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="03ListarAlumnos.html">Alumnos</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <form class="form-inline my-2 my-lg-0">
+            </form>
+
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="logout()">Cerrar Sesión</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <main role="main" class="container">
+        <div class="starter-template" id="main-container">
+            <div class="alert alert-success" role="alert">
+                calificacion eliminada</strong>
+            </div>
+            <button class="btn btn-primary" onclick="window.location.assign('03ListarAlumnos.html?acc=insert');">Regresar</button>
+        </div>
+    </main>
+</body>
+
+</html>
